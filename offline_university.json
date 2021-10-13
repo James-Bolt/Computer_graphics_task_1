@@ -2,7 +2,8 @@
   "costOfPlace": 500,
   "securitySalary": 420000,
   "cloakroomSalary": 144000,
-  "updateProjectros": 9400,
+  "updateProjectors": 9400,
   "chancelleryCost": 20000,
-  "paperCost": 250
+  "paperCost": 250,
+  "salaryOfCleaner": 240000
 }

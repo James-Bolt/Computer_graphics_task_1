@@ -30,9 +30,10 @@ class Offline(University):
             self.costOfPlace = data['costOfPlace']
             self.securitySalary = data['securitySalary']
             self.cloakroomSalary = data['cloakroomSalary']
-            self.updateProjectros = data['updateProjectros']
+            self.updateProjectors = data['updateProjectors']
             self.chancelleryCost = data['chancelleryCost']
             self.paperCost = data['paperCost']
+            self.salaryOfCleaner = data['salaryOfCleaner']
 
 
 class Online(University):
