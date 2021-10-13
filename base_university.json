@@ -7,5 +7,6 @@
   "sysAdminSalary": 780000,
   "methodistSalary": 960000,
   "inflation": 8,
-  "durationOfEducation": 4
+  "durationOfEducation": 4,
+  "lectorSalaryPerHour": 250
 }
