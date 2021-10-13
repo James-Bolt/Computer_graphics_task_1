@@ -1,6 +1,7 @@
 
 import json
 
+
 class University(object):
     def __init__(self):
         with open("base_university.json", "r") as read_file:
