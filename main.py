@@ -58,7 +58,7 @@ if __name__ == '__main__':
                 Online_university.internetCost + Online_university.accountantSalary + Online_university.sysAdminSalary +
                 Online_university.methodistSalary + Online_university.cost1C) * (1 + Online_university.inflation * 0.01)) *
                 Online_university.durationOfEducation) / Online_university.countOfStudents
-    print('Если в ВУЗе обучаются', Online_university.countOfStudents, 'студентов, то каждый студент оплатит', int(sumOnline),'рублей за 4 года онлайн обучения ')
+    print('Если в ВУЗе обучаются', Online_university.countOfStudents, 'студентов, то каждый студент заплатит', int(sumOnline),'рублей за 4 года онлайн обучения ')
 
     # Стоимость обучения оффлайн
     sqare = GeneralSqare(Offline_university.countOfStudents, countOfLectors)
@@ -75,5 +75,5 @@ if __name__ == '__main__':
                   Offline_university.chancelleryCost + Offline_university.internetCost + Offline_university.accountantSalary +
                   Offline_university.cost1C + Offline_university.sysAdminSalary + Offline_university.methodistSalary) *
                   (1 + Offline_university.inflation * 0.01)) * Offline_university.durationOfEducation) / Offline_university.countOfStudents
-    print('Если в ВУЗе обучаются',Offline_university.countOfStudents,'студентов, то каждый студент оплатит', int(sumOffline),'рублей за 4 года оффлайн обучения ')
+    print('Если в ВУЗе обучаются',Offline_university.countOfStudents,'студентов, то каждый студент заплатит', int(sumOffline),'рублей за 4 года оффлайн обучения ')
 
