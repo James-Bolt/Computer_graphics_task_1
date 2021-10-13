@@ -1,11 +1,11 @@
 {
   "countOfStudents": 10,
-  "ourEducationPlan": 0,
-  "internetCost": 0,
+  "ourEducationPlan": 64,
+  "internetCost": 63600,
   "accountantSalary": 0,
   "cost1C": 0,
   "sysAdminSalary": 0,
   "methodistSalary": 0,
   "inflation": 0,
-  "durationOfEducation": 0
+  "durationOfEducation": 4
 }
