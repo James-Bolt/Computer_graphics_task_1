@@ -2,10 +2,10 @@
   "countOfStudents": 10,
   "ourEducationPlan": 64,
   "internetCost": 63600,
-  "accountantSalary": 0,
-  "cost1C": 0,
-  "sysAdminSalary": 0,
-  "methodistSalary": 0,
-  "inflation": 0,
+  "accountantSalary": 6600000,
+  "cost1C": 11400,
+  "sysAdminSalary": 780000,
+  "methodistSalary": 960000,
+  "inflation": 8,
   "durationOfEducation": 4
 }

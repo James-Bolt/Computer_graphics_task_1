@@ -16,6 +16,7 @@ class University(object):
             self.inflation = data['inflation']
             self.durationOfEducation = data['durationOfEducation']
 
+
     def printMe(self):
         print(self.countOfStudents)
 
