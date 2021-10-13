@@ -3,7 +3,7 @@ from classes import *
 
 
 def FindCountOfLectors(countOfSubjects):
-    return countOfSubjects / 3 + int(bool(countOfSubjects % 3))
+    return countOfSubjects // 3 + int(bool(countOfSubjects % 3))
 
 
 def CalculateSUMZPLectors(countOfLectors, salaryPerHour):
@@ -48,11 +48,15 @@ if __name__ == '__main__':
 
     # Стоимость обучения онлайн
     countOfLectors = FindCountOfLectors(Online_university.ourEducationPlan)
-    sUMZPLectors = CalculateSUMZPLectors(countOfLectors)
-    sqare = GeneralSqare(Online_university.countOfStudents, countOfLectors)
-    clouds = CloudRentCost(Online_university.cloudRent)
-    sumOnline = countOfLectors + sUMZPLectors + sqare + clouds + Online_university.internetCost
+    sUMZPLectors = CalculateSUMZPLectors(countOfLectors, Online_university.lectorSalaryPerHour)
+    costClouds = CloudRentCost(Online_university.cloudRent)
+    sumOnline = (((sUMZPLectors + costClouds + Online_university.elearningHost + Online_university.zoomAccounts +
+        Online_university.internetCost + Online_university.accountantSalary + Online_university.sysAdminSalary +
+        Online_university.methodistSalary) * (1 + Online_university.inflation * 0.01)) * Online_university.durationOfEducation) / Online_university.countOfStudents
+    print(sumOnline)
 
-
-
+    # Стоимость обучения оффлайн
+    sqare = GeneralSqare(Offline_university.countOfStudents, countOfLectors)
+    costRent = RentCost(sqare, Offline_university.costOfPlace)
+    costCommunal = CommunalPayment(costRent)
 

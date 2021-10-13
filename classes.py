@@ -15,6 +15,7 @@ class University(object):
             self.methodistSalary = data['methodistSalary']
             self.inflation = data['inflation']
             self.durationOfEducation = data['durationOfEducation']
+            self.lectorSalaryPerHour = data['lectorSalaryPerHour']
 
 
     def printMe(self):
@@ -23,7 +24,7 @@ class University(object):
 
 class Offline(University):
     def __init__(self):
-        super.__init__()
+        super().__init__()
         with open("offline_university.json", "r") as read_file:
             data = json.load(read_file)
             self.costOfPlace = data['costOfPlace']
@@ -36,7 +37,7 @@ class Offline(University):
 
 class Online(University):
     def __init__(self):
-        super.__init__()
+        super().__init__()
         with open("online_university.json", "r") as read_file:
             data = json.load(read_file)
             self.elearningHost = data['elearningHost']
