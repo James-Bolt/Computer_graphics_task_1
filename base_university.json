@@ -7,5 +7,6 @@
   "sysAdminSalary": 0,
   "methodistSalary": 0,
   "inflation": 0,
-  "durationOfEducation": 4
+  "durationOfEducation": 4,
+  "lectorSalaryPerHour": 250
 }
